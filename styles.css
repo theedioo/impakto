@@ -1,0 +1,31 @@
+/* Base typography and behavior */
+body {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Utilities migrated from inline <style> */
+.gradient-text {
+    background: linear-gradient(90deg, #4F46E5 0%, #8B5CF6 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.gradient-bg {
+    background: linear-gradient(135deg, #4F46E5 0%, #8B5CF6 100%);
+}
+
+.shadow-glow {
+    box-shadow: 0 4px 15px rgba(79, 70, 229, 0.3);
+}
+
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+    background: linear-gradient(135deg, rgba(79, 70, 229, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%);
+}
+
